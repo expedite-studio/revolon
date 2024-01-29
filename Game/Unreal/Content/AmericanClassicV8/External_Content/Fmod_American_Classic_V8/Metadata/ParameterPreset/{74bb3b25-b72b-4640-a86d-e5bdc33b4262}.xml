@@ -16,7 +16,7 @@
 			<value>900</value>
 		</property>
 		<property name="maximum">
-			<value>7000</value>
+			<value>6000</value>
 		</property>
 		<property name="initialValue">
 			<value>900</value>
