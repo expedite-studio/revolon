@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{ccb0ee50-3dd5-4207-9555-15dc28acd880}">
+		<property name="name">
+			<value>HandBraking</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0eda7fed-bb1a-4777-be31-fffafe63259d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c31c06de-0356-4703-937e-59d5cd19400d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c31c06de-0356-4703-937e-59d5cd19400d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
