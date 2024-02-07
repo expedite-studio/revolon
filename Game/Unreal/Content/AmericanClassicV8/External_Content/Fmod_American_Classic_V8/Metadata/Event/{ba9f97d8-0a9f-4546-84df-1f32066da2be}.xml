@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{6bd9ad14-f082-4de1-8df9-311f82a5c315}" />
 	<object class="GroupTrack" id="{9461bcd9-7fba-41a2-9749-458448f50ec2}">
 		<relationship name="modules">
-			<destination>{d2c33793-d9d5-44f6-b2cb-aa60637e2a64}</destination>
+			<destination>{f4c8f149-7769-42ac-9e7d-a4e77c8da684}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c3a9d6e8-e9e0-46da-9840-4b80534f0af6}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{f4c6519d-e43e-4b18-9ca5-0d91816799be}">
 		<relationship name="modules">
-			<destination>{d2c33793-d9d5-44f6-b2cb-aa60637e2a64}</destination>
+			<destination>{f4c8f149-7769-42ac-9e7d-a4e77c8da684}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{68870be3-8daa-48a4-9467-c373ca2b713c}">
@@ -88,21 +88,23 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{513279a2-92d9-401b-ae59-bafd7c3fb635}" />
-	<object class="SingleSound" id="{d2c33793-d9d5-44f6-b2cb-aa60637e2a64}">
+	<object class="MultiSound" id="{f4c8f149-7769-42ac-9e7d-a4e77c8da684}">
 		<property name="length">
-			<value>0.9959863945578229</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.15000000000000002</value>
+			<value>0.80000000000000004</value>
 		</property>
 		<relationship name="modulators">
-			<destination>{f2c76cbc-8d5f-41ed-a325-16e2d0b175cf}</destination>
+			<destination>{8cedd360-0929-4380-8de3-1b463f1ebccc}</destination>
 		</relationship>
-		<relationship name="audioFile">
-			<destination>{f69aca90-075c-4bdf-99cc-1f8ec3a6cd63}</destination>
+		<relationship name="sounds">
+			<destination>{025cd91b-0f83-4f89-abfb-d1d2cbbf1afa}</destination>
+			<destination>{363fe234-f5a4-4283-82e0-4345edb24451}</destination>
+			<destination>{dd449767-4f9d-45e1-a99d-d9bc1c365948}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c3a9d6e8-e9e0-46da-9840-4b80534f0af6}">
+		<property name="volume">
+			<value>-14.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -124,25 +126,42 @@
 	</object>
 	<object class="MixerBusPanner" id="{5b7ac7f8-ba01-44b7-b0b1-ac090db696d3}" />
 	<object class="MixerBusFader" id="{3aad0364-8cbd-411e-be92-e369bebe156e}" />
-	<object class="RandomizerModulator" id="{f2c76cbc-8d5f-41ed-a325-16e2d0b175cf}">
+	<object class="RandomizerModulator" id="{8cedd360-0929-4380-8de3-1b463f1ebccc}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>10</value>
+			<value>6.25</value>
 		</property>
+	</object>
+	<object class="SingleSound" id="{025cd91b-0f83-4f89-abfb-d1d2cbbf1afa}">
+		<relationship name="audioFile">
+			<destination>{275b86ca-b7e5-4930-bcca-0efe24c92847}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{363fe234-f5a4-4283-82e0-4345edb24451}">
+		<relationship name="audioFile">
+			<destination>{f69aca90-075c-4bdf-99cc-1f8ec3a6cd63}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{dd449767-4f9d-45e1-a99d-d9bc1c365948}">
+		<relationship name="audioFile">
+			<destination>{ad34809f-2fee-41a4-805e-446adfe9b895}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{4a0337f6-309d-448a-8893-8e7abe933589}">
 		<relationship name="effects">
 			<destination>{13bbd0df-3916-4737-a047-0d37c6dc3e4e}</destination>
+			<destination>{f167f4d1-02cc-4345-8687-2b469dcc0cd5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{554b832a-e58b-4b70-93eb-49a7a6dee163}" />
 	<object class="MixerBusFader" id="{6a80e75d-379a-455c-ad57-ca3fc23b3a39}" />
 	<object class="SFXReverbEffect" id="{7c2edc01-8a07-4cc0-bad9-d86acbc312f9}">
 		<property name="decayTime">
-			<value>350</value>
+			<value>170</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{13bbd0df-3916-4737-a047-0d37c6dc3e4e}" />
+	<object class="SFXReverbEffect" id="{f167f4d1-02cc-4345-8687-2b469dcc0cd5}" />
 </objects>

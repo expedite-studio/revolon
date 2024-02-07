@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="DataFile" id="{3ece41b0-150c-40ff-a53b-da0547933981}">
-		<property name="assetPath" />
+	<object class="EncodableAsset" id="{63b23938-28e1-4c7d-9df8-c365dae41462}">
+		<property name="assetPath">
+			<value>MetalHitSound/</value>
+		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{4ed18d0c-9c0d-466c-97a7-c295230a8e6c}</destination>
 		</relationship>
