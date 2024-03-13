@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{52e158d9-2f6a-4c9b-bd1b-f3626d7c92a1}">
+		<property name="assetPath">
+			<value>Car Impact Sound/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4ed18d0c-9c0d-466c-97a7-c295230a8e6c}</destination>
+		</relationship>
+	</object>
+</objects>
